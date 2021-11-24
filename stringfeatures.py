@@ -5,6 +5,9 @@
 
 #The following features can be used in strings to make them more versatile
 
+from typing import MutableMapping
+
+
 newline = '\n'
 quotes = '\' or \"'
 print(newline, quotes)
@@ -32,3 +35,10 @@ print(f"Hello {name}, my name is {compname}.")
 #Another option is a .format()
 #Write the variables in order they appear in the string
 print("Hello {}, my name is {}.".format(name, compname))
+
+#To make a string completely lower case or uper case, you can use the .lower or .upper function
+
+multiline = multiline.lower()
+print(multiline)
+multiline = multiline.upper()
+print(multiline)
