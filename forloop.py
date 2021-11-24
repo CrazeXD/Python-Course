@@ -22,4 +22,17 @@ for i in range(b+1):
 print('--------------------------------------------')
 
 #In this way, we go up to the max value
-#If we don't want to start from 0, we can change the minimum valueecho "# Python-Course" >> README.md
+#If we don't want to start from 0, we can change the minimum value
+
+for i in range(3, b+1):
+    print(i)
+
+print('--------------------------------------------')
+
+#In order to increase by a certain increment, use a third argument
+
+for i in range(1, b+1, 2):
+    print(i)
+
+print('--------------------------------------------')
+#This code increments by 2 every time
