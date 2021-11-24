@@ -23,9 +23,3 @@ print('--------------------------------------------')
 
 #In this way, we go up to the max value
 #If we don't want to start from 0, we can change the minimum valueecho "# Python-Course" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/CrazeXD/Python-Course.git
-git push -u origin main
