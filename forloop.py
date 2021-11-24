@@ -36,3 +36,13 @@ for i in range(1, b+1, 2):
 
 print('--------------------------------------------')
 #This code increments by 2 every time
+
+#Nested Loops
+
+#You can have a loop inside of another loop
+
+for i in range(6):
+    for g in range(11):
+        print(i*g)
+
+#This code will create a multiplication table, printing every value from 0*0 to 5*19
