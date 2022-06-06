@@ -5,9 +5,6 @@
 
 #The following features can be used in strings to make them more versatile
 
-from typing import MutableMapping
-
-
 newline = '\n'
 quotes = '\' or \"'
 print(newline, quotes)
@@ -42,3 +39,36 @@ multiline = multiline.lower()
 print(multiline)
 multiline = multiline.upper()
 print(multiline)
+
+#To find the length of a string, use the len() function
+thing = "Hello"
+print(len(thing))
+
+#In a string, each charachter has a number associated with it
+#This number is caled an indice
+#Indices start at 0, and go up to the length of the string - 1
+#For example, in the string "Hello", the first charachter is at index 0, the second at index 1, and so on
+#We can get the charachter at a specific index by using the [ ] brackets
+
+indiceofh = thing[0]
+print(indiceofh)
+#To get the last charachter in a string, use the [-1] brackets
+indiceoflast = thing[-1]
+print(indiceoflast)
+#To get the indice of a charachter or a substring in a string, use the .index() function
+#The .index() function returns the indice of the first instance of the substring
+#If the substring is not found, it will throw an error
+print(thing.index("He"))
+#If we want to print the indice of the last instance of the substring, we can use the .rindex() function
+print(thing.index("l"))
+
+#We can iterate through each charachter in a string using a for loop or a while loop, which we will learn about later
+
+#To add 2 strings together, we can concatenate or add them
+string1 = "Hello"
+string2 = "World"
+
+resultwithadd = string1+string2
+print(resultwithadd)
+
+#There are many other features, however, these are some of the most important that you will use
