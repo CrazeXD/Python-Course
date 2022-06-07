@@ -25,3 +25,14 @@ print(subtracted)
 
 #Challenge! Make a function that takes a string in as an argument. Then, ask the user whether they would like to make it upper case or lower case, and convert and return the string
 #appropriately
+
+def upperLower(strings):
+	choice = input("Would you like to convert the string to uppercase or lowercase?\n")
+	if choice.lower() == "uppercase":
+		return strings.upper()
+	elif choice.lower() == "lowercase":
+		return strings.lower()
+	else:
+		return strings
+
+print(upperLower("hElLo"))
