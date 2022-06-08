@@ -18,7 +18,3 @@ sleep(6) #Sleeps for 6 seconds
 #We can also import all the functions from a module.
 from time import *
 #Almost all the modules you will use will have documentation available online. To get this documentation, just run a general google search.
-
-#Some modules will also have a help() function.
-#To see what a function does, just call help(function_name).
-#You must have the module imported however

@@ -72,3 +72,4 @@ resultwithadd = string1+string2
 print(resultwithadd)
 
 #There are many other features, however, these are some of the most important that you will use
+#If you would like a list, just google "Python String Functions"
