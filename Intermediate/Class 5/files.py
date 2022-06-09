@@ -33,3 +33,7 @@ text = testfile.read()
 print(text)
 testfile.close()
 #And wala
+
+#For the remainder of the class, I want you all to build a small program that will allow you to create a file.
+#The program should ask the user for a filename, and then ask for the contents of the file.
+#As an optional additional practice, you can make this applicaiton into a GUI using tkinter.
