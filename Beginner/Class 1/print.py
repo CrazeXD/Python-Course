@@ -16,3 +16,14 @@ print("Hello", "World", sep=", ")
 
 print("Hello", end = ", ")
 print("World")
+
+#Now, I want all of you to try the following
+#Using print statements, make a shape in your console
+#To make the shape, use the _, the ‾, the |, and the / \\ (You have to use 2 \ because \ is a special chrachter)
+#Some of you may not be able to get the ‾ symbol, so I will copy paste it for you in the chat room
+#Here is an example
+print("   /|")
+print("  / |")
+print(" /  |")
+print("/   |")
+print("‾‾‾‾‾")
