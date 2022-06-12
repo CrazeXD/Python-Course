@@ -32,3 +32,35 @@ print(numbers)
 #To remove a value from a list, use the .remove() function
 numbers.remove(11)
 print(numbers)
+
+#Next, we can use dictionaries
+#Dictionaries can be used to link 2 different values.
+
+myDict = {"John": "A", "Sam": "B"}
+#To access a certain members data:
+print(myDict["John"])
+#We can access parts of dictionaries by index as well
+print(myDict[0])
+#To change the value of an item
+myDict["Sam"] = "C"
+myDict.update("Sam": "A")
+#We can find the length of a dictionary using len()
+print(len(myDict))
+#To add items to a dictionary
+myDict["NewName"] = "D"
+myDict.update("NewPerson": "C"}
+#We can remove items by popping them out
+myDict.pop("NewName")
+#.popitem() removes the last added item
+myDict.popitem()
+#You can also use the del keyword
+del myDict["John"]
+del myDict #Deletes the varaible so we can't print it
+#To simply clear the dictionary, we can use .clear()
+songs = {"Hello": "Adelle", "Faded": "Alan Walker", "Whenever, Wherever": "Shakira"}
+songs.clear()
+#We can put dictionaries inside of dictionaries as well
+#We can also loop through dictionaries
+for i in songs:
+	print(i) #Prints dictionary name
+	print(songs[i]) #Prints dictionary value

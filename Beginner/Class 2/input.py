@@ -10,11 +10,3 @@ variable = input("What is your favorite song?")
 numinput = int(input("How old are you?"))
 print(numinput, 'years old')
 #There are other types of number values than int, but those can be ignored
-
-boolinput = bool(input("True or False?"))
-if boolinput: #Checks if true by default
-    print("Yes")
-elif boolinput == False:
-    print("No")
-
-#You can use any other type of value in the same way, just make sure you use the correct keyword

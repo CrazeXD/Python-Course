@@ -1,13 +1,4 @@
-#Python offers lots of comparison features
-
-'''
-==, <, >, <=, >=, !=
-
-== means the values are the same, however it uses 2 = signs since the = sign is reserved for defining variables
-
-'''
-
-#It also has math features
+#Python provides many basic math operators, and more
 
 '''
 +, -, /, *, **, //, %
@@ -19,6 +10,16 @@
 % finds the remainder
 
 '''
+#It also Python offers lots of comparison features
+
+'''
+==, <, >, <=, >=, !=
+
+== means the values are the same, however it uses 2 = signs since the = sign is reserved for defining variables
+
+'''
+
+
 
 a = 5
 b = 3

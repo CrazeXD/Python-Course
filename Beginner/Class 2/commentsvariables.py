@@ -1,4 +1,5 @@
 #use the # symbol to make comments that are not code
+#These can be used to add details about what your code does
 #Use triple quotes to add multiple lines of comments
 
 '''
