@@ -69,7 +69,7 @@ myDict.update("Sam": "A")
 print(len(myDict))
 #To add items to a dictionary
 myDict["NewName"] = "D"
-myDict.update("NewPerson": "C"}
+myDict.update("NewPerson": "C")
 #We can remove items by popping them out
 myDict.pop("NewName")
 #.popitem() removes the last added item
