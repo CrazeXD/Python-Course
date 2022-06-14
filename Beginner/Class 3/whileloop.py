@@ -10,5 +10,6 @@ while a<=10:
     a += 1
 #To create an infinite loop, you can use the following loop
 
-while True:
+while True: #Note that if you replace True with False, the loop will not work
+    #You can also use a variable with the value True and say while variable == True or just while variable:
     print('')
