@@ -60,16 +60,14 @@ print(names.count("Tim"))
 myDict = {"John": "A", "Sam": "B"}
 #To access a certain members data:
 print(myDict["John"])
-#We can access parts of dictionaries by index as well
-print(myDict[0])
 #To change the value of an item
 myDict["Sam"] = "C"
-myDict.update("Sam": "A")
+myDict.update({"Sam": "A"})
 #We can find the length of a dictionary using len()
 print(len(myDict))
 #To add items to a dictionary
 myDict["NewName"] = "D"
-myDict.update("NewPerson": "C")
+myDict.update({"NewPerson": "C"})
 #We can remove items by popping them out
 myDict.pop("NewName")
 #.popitem() removes the last added item
