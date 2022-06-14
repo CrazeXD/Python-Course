@@ -6,15 +6,15 @@ class Parent:
 		self.name = name
 		self.age = age
 
-	def printer(self) -> None:
-		print(f"{self.name} is {self.age} years old.")
+	def info(self) -> None:
+		return f"{self.name} is {self.age} years old."
 
 class Child(Parent):
 	pass
 
 #Even though the Child class has no features on it's own, we can still access data from Parent
 child = Child("Rishabh", 14)
-child.printer()
+print(child.info())
 
 #We can also add even more data to the new class
 
@@ -27,11 +27,11 @@ class Student(Child):
 	def getGraduationYear(self) -> None: #The -> indicates what type of value the function will return. It is not neccesary to add.
 		yearstillgraduation = 18-self.age
 		if yearstillgraduation>0:
-			print(f"{self.name} has {yearstillgraduation} years until they graduate")
+			return f"{self.name} has {yearstillgraduation} years until they graduate {self.school}!"
 
 
 student = Student("Rishabh", 14, "Wonderful High School")
-student.getGraduationYear()
+print(student.getGraduationYear())
 
 #Practice: Make a code that has a parent class rectangle and a child class square.
 #The parent class should have functions area and perimeter

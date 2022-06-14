@@ -29,9 +29,30 @@ print(lists[1][0]) #This will print 1
 #To add a value to a list, use the .append() function
 numbers.append(11)
 print(numbers)
-#To remove a value from a list, use the .remove() function
+#To remove a value from a list, use the .remove() or the .pop() function. The .pop() function removes the last element in the list if no value is passed
+#Pop takes an index as an argument and returns the value it removes
 numbers.remove(11)
 print(numbers)
+print(numbers.pop(8)) #Removes and prints the value at index 8
+
+#We can reverse lists
+numbers.reverse()
+print(numbers)
+#We can order lists in increasing or decreasing order
+numbers.sort()
+numbers.sort(reverse=True)
+print(numbers)
+
+#To add 2 lists, we can use the .extend() function
+names = ["John", "Jane", "Mary", "Bob"]
+names2 = ["Tom", "Tim", "Timmy", "Timothy"]
+names.extend(names2)
+print(names)
+
+#We can get the # of times a value appears in a list using the .count() function
+names.extend("Tim")
+print(names.count("Tim"))
+
 
 #Next, we can use dictionaries
 #Dictionaries can be used to link 2 different values.
@@ -64,3 +85,9 @@ songs.clear()
 for i in songs:
 	print(i) #Prints dictionary name
 	print(songs[i]) #Prints dictionary value
+
+#To get a list of all the keys in a dictionary, we can use the .keys() function
+songs = {"Hello": "Adelle", "Faded": "Alan Walker", "Whenever, Wherever": "Shakira"}
+listkeys = list(songs.keys())
+#To get a list of all the values in a dictionary, we can use the .values() function
+listvalues = list(songs.values())
